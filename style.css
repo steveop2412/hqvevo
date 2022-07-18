@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Nunito+Sans:wght@200;300;400;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: 'Poppins', sans-serif;
+}
+.nav-logo
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    font-size: 2.6rem;
+}
+.numbers-sect
+{
+    background-color: #174BEB;
+}
+.play-sect
+{
+    background-color: #8894FF;
+}
+.watch-btn
+{
+    color:#8894FF;
+}
+.watch-btn button:hover
+{
+    background-color: #666FBE;
+}
+.rip
+{
+    min-height: 3.4vh;
+}
+.ripple1
+{
+    background-color: #666FBE;
+}
+.ripple3
+{
+    background-color: #222540;
+}
+.ripple2
+{
+    background-color: #444A80;
+}
+.ripple11
+{
+    background-color: #B5181C;
+}
+.ripple33
+{
+    background-color: #3C080A;
+}
+.ripple22
+{
+    background-color: #790F14;
+}
+.box1
+{
+    background-color: #C5D2FA;
+}
+.box2
+{
+    background-color: #8BA5F5;
+}
+.box3
+{
+    background-color: #5178F0;
+}
+.index-header
+{
+    background-color: #121212;
+}
+header{
+    min-height: 100vh;
+}
+.watch-header
+{
+    background-image: url(maxresdefault.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.people-header
+{
+    background-image: url(ppl/TKL.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.about-header
+{
+    background-color: #A1002E;
+}
+.viewlist
+{
+    background-color: #F12027;
+}
+.viewlist-nav a:hover{
+    color: #ffffff;
+    transition: 200ms;
+}
+.billie-sect
+{
+    background-color: #A8908D;
+}
+.learn-btn
+{
+    color:#A8908D;
+}
+.learn-btn button:hover
+{
+    background-color: #D3C7C6;
+}
+.somos-sect
+{
+    background-color: #FF4B00;
+}
+.watch-somos-btn
+{
+    color: #FF4B00;
+}
+.watch-somos-btn button:hover
+{
+    background-color: #FFA57F;
+    transition: 300ms;
+}
+.ripple-a1
+{
+    background-color: #BF3800;
+}
+.ripple-a2
+{
+    background-color: #802600;
+}
+.ripple-a3
+{
+    background-color: #401400;
+}
+.people-para
+{
+    line-height: 1.5rem;
+}
+.values-sect
+{
+    background-image: url(ppl/Griff.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.offices-sect
+{
+    background-color: #BAD131;
+}
+.text-grey
+{
+    color:#7f7f7f;
+}
+.join-team-sect
+{
+    background-color: #FF4B00;
+}
+.search-btn
+{
+    color: #FF4B00;
+}
+.search-btn button:hover
+{
+    background-color: #FFA57F;
+    transition: background-color 300ms;
+}
+
+.ripple-p1
+{
+    background-color: #BF3800;
+}
+.ripple-p2
+{
+    background-color: #802600;
+}
+.ripple-p3
+{
+    background-color: #401400;
+}
+.adv-header
+{
+    background-image: url(advt/adv1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.content-sect
+{
+    background-color: #BAAFDD;
+}
+.num2-sect
+{
+    background-color: #E1E4FF;
+}
+.box21
+{
+    background-color: #174BEB;
+}
+.box22
+{
+    background-color: #4971F0;
+}
+.box23
+{
+    background-color: #7C98F5;
+}
+.partner-sect
+{
+    background-image: url(advt/adv2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.partner-sect li:hover p{
+    visibility: visible;
+    opacity: 1;
+    transition: 300ms;
+}
+.partner-sect li:hover
+{
+    background-color: #DAD5C2;
+}
+.partner-sect li p{
+    visibility: hidden;
+    opacity: 0;
+}
+.contact-sect
+{
+    background-color: #4F4F2E;
+}
+.contact-sect p{
+    line-height: 1.5rem;
+}
+.contact-btn
+{
+    color:#4F4F2E;
+}
+.contact-btn button:hover
+{
+    background-color: #A7A796;
+    transition: background-color 400ms;
+}
+
+.ripple-ad1
+{
+    background-color: #3B3A22;
+}
+.ripple-ad2
+{
+    background-color: #282817;
+}
+.ripple-ad3
+{
+    background-color: #14140C;
+}
+.news-sect img{
+    opacity: 50%;
+}
+.news-sect img:hover
+{
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 400ms;
+}
+.artist-header
+{
+    background-color: #A8908D;
+}
+.art-contact-btn
+{
+    color: #CEC7AE;
+}
+.art2-contact-btn
+{
+    color: #A8908D;
+}
+.art-contact-btn button:hover
+{
+    background-color: #E6E3D6;
+    transition: background-color 400ms;
+}
+.art2-contact-btn button:hover
+{
+    background-color: #D3C7C6;
+    transition: background-color 400ms;
+}
+.why-vevo-sect
+{
+    background-color: #8894FF;
+}
+.why-vevo-sect p{
+    line-height: 1.4rem;
+}
+.channel-sect
+{
+    background-color: #9507FF;
+}
+.how-to-sect
+{
+    background-color: #898E83;
+}
+.channel-list li{
+    line-height: 1.4rem;
+}
+.contact-team-sect
+{
+    background-color: #CEC7AE;
+}
+.contact-team-sect .search-btn
+{
+    color: #CEC7AE;
+}
+.contact-team-sect .search-btn button:hover
+{
+    background-color: #E6E3D6;
+    transition: background-color 300ms;
+}
+.t-less
+{
+    letter-spacing: -2.5px;
+}
+.t-less1
+{
+    letter-spacing: -1px;
+}
+.ripple-art1
+{
+    background-color: #9A9582;
+}
+.ripple-art2
+{
+    background-color: #676457;
+}
+.ripple-art3
+{
+    background-color: #33322C;
+}
+
+@media screen and (max-width: 750px) {
+    .gallery-abt,.billie-flex,.list-flexit,.flexit
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .make-full,.list-flexit
+    {
+        width: 100%;
+    }
+    .join-team-sect .join-txt
+    {
+        margin-bottom: 40px;
+    }
+    .n1-text
+    {
+        visibility: hidden;
+    }
+  }
